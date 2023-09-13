@@ -1,0 +1,12 @@
+# Target labels
+ utf8cpp
+# Source files and their labels
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/CMakeFiles/utf8cpp
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/CMakeFiles/utf8cpp.rule
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/CMakeFiles/utf8cpp-complete.rule
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-stamp/utf8cpp-build.rule
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-stamp/utf8cpp-configure.rule
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-stamp/utf8cpp-download.rule
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-stamp/utf8cpp-install.rule
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-stamp/utf8cpp-mkdir.rule
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-stamp/utf8cpp-patch.rule

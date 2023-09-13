@@ -1,0 +1,44 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ANTLR4/antlr4_runtime/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 215,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libantlr4",
+			"paths" : 
+			[
+				"ANTLR4/antlr4_runtime/README.md",
+				"ANTLR4/antlr4_runtime/VERSION"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ANTLR4/antlr4_runtime",
+		"source" : "ANTLR4/antlr4_runtime"
+	}
+}

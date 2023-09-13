@@ -1,0 +1,6 @@
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/install/include/utf8cpp/utf8.h
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/install/include/utf8cpp/utf8/cpp11.h
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/install/include/utf8cpp/utf8/unchecked.h
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/install/include/utf8cpp/utf8/checked.h
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/install/include/utf8cpp/utf8/core.h
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/install/lib/cmake/utf8cpp/utf8cppConfig.cmake

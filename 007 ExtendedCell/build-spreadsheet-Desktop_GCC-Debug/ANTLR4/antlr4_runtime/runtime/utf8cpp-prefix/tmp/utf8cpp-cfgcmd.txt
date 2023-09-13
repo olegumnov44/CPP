@@ -1,0 +1,1 @@
+cmd='/snap/cmake/1156/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/install;-DUTF8_TESTS=off;-DUTF8_SAMPLES=off;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

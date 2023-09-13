@@ -1,0 +1,15 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=git
+command=/snap/cmake/1156/bin/cmake;-P;/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/tmp/utf8cpp-gitclone.cmake
+source_dir=/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp
+work_dir=/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty
+repository=https://github.com/nemtrif/utfcpp
+remote=origin
+init_submodules=TRUE
+recurse_submodules=--recursive
+submodules=
+CMP0097=
+

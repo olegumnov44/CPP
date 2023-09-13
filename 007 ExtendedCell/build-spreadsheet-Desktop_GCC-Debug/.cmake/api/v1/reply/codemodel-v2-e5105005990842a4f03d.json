@@ -1,0 +1,157 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d55a24db07a87b771031.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "ANTLR4/antlr4_runtime",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ANTLR4.antlr4_runtime-Debug-b4c452e712635a4a4cf5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ANTLR4/antlr4_runtime"
+				},
+				{
+					"build" : "ANTLR4/antlr4_runtime/runtime",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-ANTLR4.antlr4_runtime.runtime-Debug-e72162f881e3ed7477ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ANTLR4/antlr4_runtime/runtime",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "spreadsheet",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "LIBANTLR4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "antlr4_shared::@1f28dc9b89f7f15baf19",
+					"jsonFile" : "target-antlr4_shared-Debug-bf9abd1357b06d22a3a5.json",
+					"name" : "antlr4_shared",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "antlr4_static::@1f28dc9b89f7f15baf19",
+					"jsonFile" : "target-antlr4_static-Debug-a9d7265a0eb53e461f57.json",
+					"name" : "antlr4_static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "make_lib_output_dir::@1f28dc9b89f7f15baf19",
+					"jsonFile" : "target-make_lib_output_dir-Debug-31ddfcbd89a66566c280.json",
+					"name" : "make_lib_output_dir",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "spreadsheet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-spreadsheet-Debug-22d16a612e8abe2fa5db.json",
+					"name" : "spreadsheet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "utf8cpp::@1f28dc9b89f7f15baf19",
+					"jsonFile" : "target-utf8cpp-Debug-c4f9e49f17e3b153578d.json",
+					"name" : "utf8cpp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "utf8cpp-build::@1f28dc9b89f7f15baf19",
+					"jsonFile" : "target-utf8cpp-build-Debug-4b693c3de347f6fba534.json",
+					"name" : "utf8cpp-build",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug",
+		"source" : "/home/user/YPrC++/2/spreadsheet_expert"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

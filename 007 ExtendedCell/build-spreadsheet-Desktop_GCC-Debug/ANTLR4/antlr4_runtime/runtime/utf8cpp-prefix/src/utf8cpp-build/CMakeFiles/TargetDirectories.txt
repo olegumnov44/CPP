@@ -1,0 +1,6 @@
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-build/CMakeFiles/edit_cache.dir
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-build/CMakeFiles/rebuild_cache.dir
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-build/CMakeFiles/list_install_components.dir
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-build/CMakeFiles/install.dir
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-build/CMakeFiles/install/local.dir
+/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/ANTLR4/antlr4_runtime/runtime/utf8cpp-prefix/src/utf8cpp-build/CMakeFiles/install/strip.dir
