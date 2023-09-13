@@ -1,0 +1,128 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"ANTLR4/antlr4_runtime/runtime/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 146,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/user/YPrC++/2/spreadsheet_expert/dist/libantlr4-runtime.so.4.9.3"
+			],
+			"targetId" : "antlr4_shared::@1f28dc9b89f7f15baf19",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/user/YPrC++/2/spreadsheet_expert/dist/libantlr4-runtime.so"
+			],
+			"targetId" : "antlr4_shared::@1f28dc9b89f7f15baf19",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/home/user/YPrC++/2/spreadsheet_expert/dist/libantlr4-runtime.a"
+			],
+			"targetId" : "antlr4_static::@1f28dc9b89f7f15baf19",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "dev",
+			"destination" : "include/antlr4-runtime",
+			"paths" : 
+			[
+				{
+					"from" : "ANTLR4/antlr4_runtime/runtime/src",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/antlr4-runtime",
+			"paths" : 
+			[
+				"/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/source/utf8.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "dev",
+			"destination" : "include/antlr4-runtime",
+			"paths" : 
+			[
+				"/home/user/YPrC++/2/build-spreadsheet_expert-Desktop_GCC-Debug/runtime/thirdparty/utfcpp/source/utf8"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "ANTLR4/antlr4_runtime/runtime",
+		"source" : "ANTLR4/antlr4_runtime/runtime"
+	}
+}
