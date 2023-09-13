@@ -1,0 +1,60 @@
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f27c5/fast && /usr/bin/make  -f CMakeFiles/cmTC_f27c5.dir/build.make CMakeFiles/cmTC_f27c5.dir/build
+make[1]: вход в каталог «/home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_f27c5.dir/src.cxx.o
+/usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_f27c5.dir/src.cxx.o -c /home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f27c5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f27c5.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_f27c5.dir/src.cxx.o -o cmTC_f27c5 
+/usr/bin/ld: CMakeFiles/cmTC_f27c5.dir/src.cxx.o: в функции «main»:
+src.cxx:(.text+0x46): неопределённая ссылка на «pthread_create»
+/usr/bin/ld: src.cxx:(.text+0x52): неопределённая ссылка на «pthread_detach»
+/usr/bin/ld: src.cxx:(.text+0x5e): неопределённая ссылка на «pthread_cancel»
+/usr/bin/ld: src.cxx:(.text+0x6f): неопределённая ссылка на «pthread_join»
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_f27c5.dir/build.make:99: cmTC_f27c5] Ошибка 1
+make[1]: выход из каталога «/home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_f27c5/fast] Ошибка 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0580d/fast && /usr/bin/make  -f CMakeFiles/cmTC_0580d.dir/build.make CMakeFiles/cmTC_0580d.dir/build
+make[1]: вход в каталог «/home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_0580d.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++17 -o CMakeFiles/cmTC_0580d.dir/CheckFunctionExists.cxx.o -c /home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_0580d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0580d.dir/link.txt --verbose=1
+/usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0580d.dir/CheckFunctionExists.cxx.o -o cmTC_0580d  -lpthreads 
+/usr/bin/ld: невозможно найти -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0580d.dir/build.make:99: cmTC_0580d] Ошибка 1
+make[1]: выход из каталога «/home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/CMakeTmp»
+make: *** [Makefile:127: cmTC_0580d/fast] Ошибка 2
+
+
+
