@@ -1,6 +1,6 @@
 ## Список проектов:
 
-### 1. [*Разработка движка поискового сервера*](https://github.com/olegumnov44/DataScience/tree/master/001%20auto_price_prediction)
+### 1. [*Разработка движка поискового сервера*](https://github.com/olegumnov44/CPP/tree/master/001%20SearchServer)
 **Описание проекта:**
 
 
