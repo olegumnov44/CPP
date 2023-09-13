@@ -1,3 +1,0 @@
-/home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/transport_catalogue.dir
-/home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/edit_cache.dir
-/home/user/YPrC++/TransportCatalogue3/build-debug/CMakeFiles/rebuild_cache.dir
